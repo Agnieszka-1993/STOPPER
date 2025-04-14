@@ -1,0 +1,22 @@
+.component {
+  text-align: center;
+  background-color: #2e2e2e;
+  min-height: 100vh;
+  padding: 40px;
+
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
